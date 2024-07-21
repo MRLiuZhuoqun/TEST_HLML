@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>鸡鸡空鸡鸡</title>
     <style>
+      @font-face {
+        font-family: myfont;
+        src: url(./fonts/CEFFontsCJK-Regular.ttf);
+      }
       html {
         background-color: #00539f;
+        font-family: myfont, sans-serif;
+        /* font-family: "ZCOOL KuaiLe", sans-serif;
+        font-weight: 400;
+        font-style: normal; */
       }
       body {
         width: 350px;
@@ -14,17 +22,31 @@
         background-color: #ff9500;
         padding: 20px;
         border: 2px solid black;
+        border-radius: 10px;
       }
-      header{
+      header {
         padding: 1px 0px;
-        background-color: bisque;
+        background-color: hsl(33, 100%, 88%);
+        border-radius: 5px;
+        border: 1px solid;
+      }
+      img{
+        border: 1px solid white;
+        padding: 10px;
+        background-color: black;
+        border-radius: 5px;
       }
 
       * {
         text-align: center;
       }
-        
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -34,6 +56,6 @@
       <h4>单身</h4>
     </header>
     <hr />
-    <img src="DSC_1409.jpg" alt="" height="230" />
+    <img src="DSC_1409.jpg" alt="" height="220" />
   </body>
 </html>
