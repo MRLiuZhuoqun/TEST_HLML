@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>steam:鸡鸡空鸡鸡</title>
+    <title>雷蕾的相亲介绍</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,6 +11,10 @@
       crossorigin="anonymous"
     />
     <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
       @font-face {
         font-family: "myfont";
         src: url(./fonts/CEFFontsCJKMono-Regular.ttf);
@@ -44,9 +48,22 @@
         background-color: black;
         border-radius: 5px;
       }
-
-      * {
-        text-align: center;
+      .neirong {
+        display: inline-flex;
+        flex-direction: column;
+        padding-left: 45px;
+        padding-top: 15px;
+      }
+      .btn-div {
+        padding-right: 45px;
+        padding-top: 20px;
+        float: right;
+      }
+      .btn1 {
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+        background-color: rgb(255, 241, 216);
       }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -58,30 +75,47 @@
   </head>
   <body>
     <header>
-      <h1>雷蕾是大SB（帅逼）</h1>
-      <h2>喜好OW</h2>
-      <h3>经常加班</h3>
-      <h4>单身</h4>
+      <h1 class="text-1" style="text-align: center">雷蕾是大SB（帅逼）</h1>
+      <div class="neirong">
+        <h2 class="qita text-1">喜好OW</h2>
+        <h3 class="qita text-1">经常加班</h3>
+        <h4 class="qita text-1">单身</h4>
+      </div>
+
+      <div class="btn-div">
+        <button class="btn1">点击播放自我介绍</button>
+        <p style="text-align: center">(注意音量)</p>
+      </div>
     </header>
     <hr />
 
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/DSC_1409.jpg" class="d-block w-100" alt="...">
+          <img src="./images/DSC_1409.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="./images/DSC_1409.jpg" class="d-block w-100" alt="...">
+          <img src="./images/DSC_1411.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="./images/DSC_1409.jpg" class="d-block w-100" alt="...">
+          <img src="./images/DSC_1615.png" class="d-block w-100" alt="..." />
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
